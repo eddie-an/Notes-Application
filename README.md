@@ -8,12 +8,12 @@ This is a full stack application created with React and AWS that allows user log
 
 # Link to website
 
-Website link is provided [here](https://eddies-note-application.netlify.app/).
+Website link is provided [here](https://lotion-note-application.netlify.app/).
 Feel free to play around with the website.
 Please note that:
 
-- Google Authentication takes care of the login. Therefore, I do not have access to user information.
-- However, I do have access to all the notes created in the DynamoDB database. Please do not create any notes with sensitive information in it.
+- Google Authentication takes care of the login. Therefore, we do not have access to user information.
+- However, we do have access to all the notes created in the DynamoDB database. Please do not create any notes with sensitive information in it.
 
 Here is what the database looks like:
 ![Database](Database.png)
