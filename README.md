@@ -6,14 +6,6 @@
 
 This is a full stack application created with React and AWS that allows user login and authentication using `@react-oauth/google` (more info provided [here](https://blog.logrocket.com/guide-adding-google-login-react-app/)).
 
-## Architecture Overview
-
-<br/>
-<p align="center">
-  <img src="https://res.cloudinary.com/mkf/image/upload/v1678683690/ENSF-381/labs/lotion-backedn_djxhiv.svg" alt="lotion-architecture" width="800"/>
-</p>
-<br/>
-
 # Link to website
 
 Website link is provided [here](https://eddies-note-application.netlify.app/notes).
@@ -22,6 +14,17 @@ Please note that:
 
 - Google Authentication takes care of the login. Therefore, I do not have access to user information.
 - However, I do have access to all the notes created in the DynamoDB database. Please do not create any notes with sensitive information in it.
+
+Here is what the database looks like:
+![Database](Database.png)
+
+## Architecture Overview
+
+<br/>
+<p align="center">
+  <img src="https://res.cloudinary.com/mkf/image/upload/v1678683690/ENSF-381/labs/lotion-backedn_djxhiv.svg" alt="lotion-architecture" width="800"/>
+</p>
+<br/>
 
 ## :page_with_curl: Notes
 
