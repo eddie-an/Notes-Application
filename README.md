@@ -2,13 +2,9 @@
 
 ###### Group Project
 
-###### Backend authentication still not complete. However, the website is still functional
-
 ###### Created by Edward An and Jacob Lever
 
 This is a full stack application created with React and AWS that allows user login and authentication using `@react-oauth/google` (more info provided [here](https://blog.logrocket.com/guide-adding-google-login-react-app/)).
-
-## <br>
 
 ## Architecture Overview
 
@@ -20,7 +16,12 @@ This is a full stack application created with React and AWS that allows user log
 
 # Link to website
 
-Website link is provided [here](https://sdfsd).
+Website link is provided [here](https://eddies-note-application.netlify.app/notes).
+Feel free to play around with the website.
+Please note that:
+
+- Google Authentication takes care of the login. Therefore, I do not have access to user information.
+- However, I do have access to all the notes created in the DynamoDB database. Please do not create any notes with sensitive information in it.
 
 ## :page_with_curl: Notes
 
@@ -44,3 +45,5 @@ Website link is provided [here](https://sdfsd).
 - Memory configuration less than 128MB for AWS Lambda functions is used. When the `memory_size` field is not specified, it will default to 128MB which is the minimum amount
 - 1 Million free requests, and up to 3.2 million seconds of free compute time is under the [Free Tier](https://aws.amazon.com/free/)
 - Free Tier notifications on my AWS account is enabled to stay within the free tier
+
+###### Note to self: Backend authentication still not complete. However, the website is still functional
