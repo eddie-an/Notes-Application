@@ -8,7 +8,7 @@ This is a full stack application created with React and AWS that allows user log
 
 # Link to website
 
-Website link is provided [here](https://eddies-note-application.netlify.app/notes).
+Website link is provided [here](https://eddies-note-application.netlify.app/).
 Feel free to play around with the website.
 Please note that:
 
