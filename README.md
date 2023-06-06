@@ -1,2 +1,1 @@
-# Notes-application
-Notes web application with backend
+# Notes application
