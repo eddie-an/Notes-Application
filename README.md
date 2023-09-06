@@ -4,6 +4,8 @@
 
 ###### Created by Edward An and Jacob Lever
 
+###### Website no longer works because Google Cloud free trial is over and I don't want to pay to maintain this website :(
+
 This is a full stack application created with React and AWS that allows user login and authentication using `@react-oauth/google` (more info provided [here](https://blog.logrocket.com/guide-adding-google-login-react-app/)).
 
 # Link to website
