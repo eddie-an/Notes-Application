@@ -4,21 +4,19 @@
 
 ###### Created by Edward An and Jacob Lever
 
-###### Website no longer works because Google Cloud free trial is over and I don't want to pay to maintain this website :(
+Website link is provided [here](https://lotion-note-application.netlify.app/).
+Feel free to play around with the website.
+
+Demonstration video link is provided [here](https://).
 
 This is a full stack application created with React and AWS that allows user login and authentication using `@react-oauth/google` (more info provided [here](https://blog.logrocket.com/guide-adding-google-login-react-app/)).
 
-# Link to website
 
-Website link is provided [here](https://lotion-note-application.netlify.app/).
-Feel free to play around with the website.
+
 Please note that:
 
-- Google Authentication takes care of the login. Therefore, we do not have access to user information.
+- The Google Authentication takes care of the login.    Therefore, we do not have access to sensitive user information such as passwords.
 - However, we do have access to all the notes created in the DynamoDB database. Please do not create any notes with sensitive information in it.
-
-Here is what the database looks like:
-![Database](Database.png)
 
 ## Architecture Overview
 
@@ -35,7 +33,7 @@ Here is what the database looks like:
   - `terraform init`
   - `aws-vault exec {AWS username} --no-session -- terraform apply`
 - AWS DynamoDB is used for the database
-- Lambda Function URLs is used to connect your backend to the frontend
+- Lambda Function URLs is used to connect the backend to the frontend
 - There are 3 Lambda functions:
 
   - `get-notes`: to retrieve all the notes for a user. The function reads the user email from the query parameter `email`, and receives `email` and `access_token` (this is the token you get from the Google login library) in the headers. Function URL only allows `GET` requests
@@ -50,5 +48,3 @@ Here is what the database looks like:
 - Memory configuration less than 128MB for AWS Lambda functions is used. When the `memory_size` field is not specified, it will default to 128MB which is the minimum amount
 - 1 Million free requests, and up to 3.2 million seconds of free compute time is under the [Free Tier](https://aws.amazon.com/free/)
 - Free Tier notifications on my AWS account is enabled to stay within the free tier
-
-###### Note to self: Backend authentication still not complete. However, the website is still functional
