@@ -7,11 +7,9 @@
 Website link is provided [here](https://lotion-note-application.netlify.app/).
 Feel free to play around with the website.
 
-Demonstration video link is provided [here](https://).
+Demonstration video link is provided [here](https://youtu.be/Ye_-zmXKY-Q).
 
 This is a full stack application created with React and AWS that allows user login and authentication using `@react-oauth/google` (more info provided [here](https://blog.logrocket.com/guide-adding-google-login-react-app/)).
-
-
 
 Please note that:
 
