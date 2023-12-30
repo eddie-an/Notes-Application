@@ -4,6 +4,8 @@
 
 ###### Created by Edward An and Jacob Lever
 
+##### Mobile support work in progress: text editor text overflow must be handled
+
 Website link is provided [here](https://lotion-note-application.netlify.app/).
 Feel free to play around with the website.
 
