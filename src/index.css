@@ -335,6 +335,11 @@ button:hover { /* Cursor should change to be a pointer when it hovers over any b
 
 @media screen and (max-width: 800px){
 
+  .no-note-content-container > h4 {
+    font-size: 18px;
+    padding-top: 40px;
+  }
+
   .side-bar-container {
     width: 300px !important;
   }
@@ -399,6 +404,11 @@ button:hover { /* Cursor should change to be a pointer when it hovers over any b
 
 @media screen and (max-width: 600px){
 
+  .no-note-content-container > h4 {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
   .body-container { /* Body-container contains the entire website except for the header*/
     height: 92%;
   }
@@ -406,8 +416,8 @@ button:hover { /* Cursor should change to be a pointer when it hovers over any b
     height: 8%;
   }
 
-  .button-container > button {
-    font-size: 22px;
+  .toggle-button > button {
+    font-size: 22px !important;
   }
 
   .title > h1 {
@@ -424,7 +434,15 @@ button:hover { /* Cursor should change to be a pointer when it hovers over any b
   }
 
   .logout-button > button {
-    font-size: 8px;
+    font-size: 10px;
+  }
+
+  .side-bar-title {
+    padding-left: 5px;
+  }
+
+  .side-bar-body-container > p {
+    font-size: 10px;
   }
 
   .side-bar-container {
@@ -433,6 +451,11 @@ button:hover { /* Cursor should change to be a pointer when it hovers over any b
 
   .side-bar-top-container { /* Top part of the menu side bar*/
     height: 30px;
+  }
+
+  .button-container > button {
+    margin-top: 6px;
+    font-size: 12px;
   }
 
   .side-bar-note-item 
@@ -455,11 +478,11 @@ button:hover { /* Cursor should change to be a pointer when it hovers over any b
   }
 
   .side-bar-note-item > small {
-    font-size: 8px;
+    font-size: 7px;
   }
 
   .note-item-content > p {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .content-top-title-container {
@@ -482,6 +505,14 @@ button:hover { /* Cursor should change to be a pointer when it hovers over any b
 
   .content-title {
     font-size: 12px;
+  }
+
+  .content-date {
+    font-size: 9px;
+  }
+
+  .content-date > input {
+    font-size: 8px;
   }
 
   .content-button {
