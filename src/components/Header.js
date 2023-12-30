@@ -21,7 +21,7 @@ function Header ({ setSideBarCollapsed, profile, logOut }) {
             </div>
 
             {!profile ? (
-                <></>
+                <div className="user-info-container"></div>
             ):(
             <>
                 <div className="user-info-container">
